@@ -1,0 +1,158 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanssemibold_italic';
+    src: url('../fonts/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('../fonts/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('../fonts/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/opensans_semibolditalic_macroman/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* END FONTS */
+
+body{
+	font-family: 'open_sansregular';
+    background: #E5E5E5;    
+}
+
+h1{
+    font-family: 'open_sanssemibold_italic';
+    font-size:1.1em;
+    width:100%;
+}
+
+h2{
+    font-family: 'open_sanssemibold_italic';
+    font-size:1em;
+}
+
+a{
+    color: #000;
+}
+
+a:hover{
+    color: #008ED3;
+}
+
+hr {
+    width:70%;
+    border: 0;
+    height: 1px;
+    background: #a5a5a5;
+}
+
+.module{   
+    border: solid #d8d8d8;
+    border-width: 1px 1px 2px 1px;
+    border-radius: 2px;
+    margin-bottom:10px;
+    background: #fff;
+}
+
+#infoContact{    
+    text-align: center;
+    padding:0px;
+}
+
+#avatar {
+    width:150px;
+    border-radius: 75px;
+    border:1px solid black;
+    margin-top: 26px;
+}
+
+.icon_social_network {
+    width:30px;
+    height:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    background-size: 30px;
+}
+
+.linkedin_logo{
+    background-image: url(../../style/images/linkedin-logo-black.png);
+}
+
+.linkedin_logo:hover{
+    background-image: url(../../style/images/linkedin-logo-blue.png);
+}
+
+.viadeo_logo{
+    background-image: url(../../style/images/viadeo-logo-black.png);
+}
+
+.viadeo_logo:hover{
+    background-image: url(../../style/images/viadeo-logo-blue.png);
+}
+
+.twitter_logo{
+    background-image: url(../../style/images/twitter-logo-black.png);
+}
+
+.twitter_logo:hover{
+    background-image: url(../../style/images/twitter-logo-blue.png);
+}
+
+.github_logo{
+    background-image: url(../../style/images/github-logo-black.png);
+}
+
+.github_logo:hover{
+    background-image: url(../../style/images/github-logo-blue.png);
+}
+
+.docker_logo{
+    background-image: url(../../style/images/docker-logo-black.png);
+}
+
+.docker_logo:hover{
+    background-image: url(../../style/images/docker-logo-blue.png);
+}
+
+/* CSS HEXAGONS */
+
+.hex {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -26px;
+}
+.hex .top {
+    width: 0;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle {
+    width: 104px;
+    height: 60px;
+    background: #6C6;
+}
+.hex .bottom {
+    width: 0;
+    border-top: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex-row {
+    clear: left;
+}
+.hex-row.even {
+    margin-left: 53px;
+}
